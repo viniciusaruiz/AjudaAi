@@ -4,53 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajuda.Ai</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="index.css"> 
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css"> 
 </head>
 <body>
-    <header>
-        <a href="index.html">  
-            <h1><img src="./img/icone_ajudaai.png" alt="tab">AJUDA.AI </h1> 
-            
+    <header >
+        <a class="cabecalho" href="index.html">  
+            <img class="icone" src="./img/icone_ajudaai.png" alt="tab">
+            <h1 class="titulo">AJUDA.AI </h1> 
         </a>
     </header>
     <main>
-        <a href="materias.html">
-            <h1> DESTAQUES: </h1>
+        <a class="destaques" href="materias.html">
+            <h1 class="T1"> DESTAQUES: </h1>
             <ul>
                 <li> MATEMÁTICA BÁSICA </li>
                 <li> HISTÓRIA BÁSICA </li>
                 <li> PORTUGUÊS BÁSICO </li>
             </ul> 
         </a>  
-        <a href="#">
-            <h2> DESEMPENHO EM AULAS: </h2>
-            <img src="./img/pizza.png" alt = "pizza">
-        </a>
-        <a href="planner.html">
-            <h2> TO DO: </h2>
-            <ul>
-                <li> 25 exercícios de matemática </li>
-                <li> 1 redação </li>
-                <li> 1 hora de academia </li>
-            </ul>
-        </a>
+        <ul class="linha">
+            <li>
+                <a href="#">
+                    <h2 class="T1" > DESEMPENHO EM AULAS: </h2>
+                    <img src="./img/pizza.png" alt = "pizza">
+                </a>
+            </li>
+            <li class="todo">
+                <a href="planner.html">
+                    <h2 class="T1" > TO DO: </h2>
+                    <ul class="itens">
+                        <li> 25 exercícios de matemática </li>
+                        <li> 1 redação </li>
+                        <li> 1 hora de academia </li>
+                    </ul>
+                </a>
+            </li>
+        </ul>
     </main>
     <footer>
         <a href="index.html">
-            <img src="/img/casa.png" alt="icone casa">
+            <img class="casa" src="/img/casa.png" alt="icone casa">
             <p> INICIO </p>
         </a>
         <a href="materias.html">
-            <img src="/img/mais.png" alt="icone mais">
+            <img class="mais" src="/img/mais.png" alt="icone mais">
             <p> MATÉRIAS </p>
         </a>
         <a href="profissao.html">
-            <img src="/img/capelo.png" alt="icone capelo">
+            <img class="capelo" src="/img/capelo.png" alt="icone capelo">
             <p> PROFISSIONAL </p>
         </a>
         <a href="orientacao.html">
-            <img src="/img/norte.png" alt="icone norte">
+            <img class="norte" src="/img/norte.png" alt="icone norte">
             <p> ORIENTAÇÃO </p>
         </a>
     </footer>
