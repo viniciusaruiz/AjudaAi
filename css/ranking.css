@@ -1,3 +1,54 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.trofeu{
+    width: 5rem;
+    height: 5rem;
+}
+header{
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 1rem;
+    border-bottom: 0.5px solid black;
+    display: flex;
+    flex-direction: row;
+}
+main{
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    margin-left: 0.3rem;
+}
+.titulo{
+    width: 100%;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.escolha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.3rem;
+}
+.faculdades{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    justify-content: center;
+}
+.calendario{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 0.3rem;
+    border: 0.1rem solid black;
+    right: 10rem;
+}
 footer{
     width: 100%;
     height: 6rem;

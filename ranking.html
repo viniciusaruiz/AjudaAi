@@ -9,43 +9,54 @@
 </head>
 <body>
     <header>
-        <img src="img/trophy.png" alt="icone troféu">
-        <h1>RANKING SEGUNDO O MEC</h1>
-        <label for="cursos">Selecione o seu curso:</label>
-            <select name="cursos" id="cursos">
-                <option value="adm">Administração</option>
-                <option value="econo">Economia</option>
-                <option value="dir">Direito</option>
-                <option value="eng_mec">Engenharia Mecânica</option>
-            </select>
+        <img class="trofeu" src="img/trophy.png" alt="icone troféu">
+        <h1 class="titulo">RANKING SEGUNDO O MEC</h1>
     </header>
     <main>
-        <fieldset>
-            <legend>Escolha a de seu interesse!</legend>
+        <label for="cursos">Selecione o seu curso:</label>
+        <select name="cursos" id="cursos">
+            <option value="adm">Administração</option>
+            <option value="arq">Arquitetura</option>
+            <option value="biomed">Biomedicina</option>
+            <option value="dir">Direito</option>
+            <option value="econo">Economia</option>
+            <option value="eng_comp">Engenharia da Computação</option>
+            <option value="eng_mecat">Engenharia Mecatrônica</option>
+            <option value="eng_mec">Engenharia Mecânica</option>
+            <option value="enferm">Enfermagem</option>
+            <option value="fisio">Fisioterapia</option>
+            <option value="med">Medicina</option>
+            <option value="odonto">Odontologia</option>
+            <option value="psico">Psicologia</option>
+            <option value="rp">Relações Públicas</option>
+            <option value="ri">Relações Internacionais</option>
+        </select>
+        <p class="escolha">Escolha as faculdades de seu interesse!</p>
+        <fieldset class="faculdades">
         
             <div>
               <input type="checkbox" id="Insper" name="Insper" checked>
-              <label for="Insper">1-Insper</label>
+              <label for="Insper">#1 Insper</label>
             </div>
         
             <div>
               <input type="checkbox" id="USP" name="USP">
-              <label for="USP">2-USP</label>
+              <label for="USP">#2 USP</label>
             </div>
             
             <div>
                 <input type="checkbox" id="Unesp" name="Unesp">
-                <label for="Unesp">3-Unesp</label>
+                <label for="Unesp">#3 Unesp</label>
               </div>
             
             <div>
                 <input type="checkbox" id="Mackenzie" name="Mackenzie">
-                <label for="Mackenzie">4-Mackenzie</label>
+                <label for="Mackenzie">#4 Mackenzie</label>
             </div>
         </fieldset>
         
-        <a href="calendario.html">
-            Ver seu calendario
+        <a class="calendario" href="calendario.html">
+            Ver meu calendario
         </a>
     </main>
     <footer>
