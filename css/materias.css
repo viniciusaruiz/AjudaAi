@@ -1,3 +1,39 @@
+.livro{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: 0.5rem;
+}
+header{
+    width: 100%;
+    height: 4rem;
+    border-bottom: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    display: flex;
+    font-size: 1.6rem;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.materia{
+    display: flex;
+    border: 0.3px solid black;
+    border-radius: 10%;
+    justify-content: center;
+}
 footer{
     width: 100%;
     height: 6rem;
