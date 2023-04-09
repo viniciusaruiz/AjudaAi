@@ -5,6 +5,9 @@ body{
 .trofeu{
     width: 5rem;
     height: 5rem;
+    position: absolute;
+    left: -0.5rem;
+    top:0.3rem;
 }
 header{
     width: 100%;
