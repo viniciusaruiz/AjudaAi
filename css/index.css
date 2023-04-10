@@ -1,9 +1,13 @@
+html{
+    width: 100%;
+    height: 100%;
+}
 .cabecalho{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6rem;
+    height: 5rem;
 }
 .titulo{
     display: flex;
@@ -22,7 +26,7 @@ header{
     width: 5rem;
     height: 5rem;
     position: absolute;
-    top: 1rem;
+    top: 0.3rem;
     left: 1rem;
 }
 main{
@@ -33,6 +37,10 @@ main{
     justify-content: center;
     align-items: center;
     margin-bottom: 0.5rem;
+}
+.pizza{
+    width: 10rem;
+    height: 10rem;
 }
 .destaques{
     border: 0.2px solid black;
