@@ -1,3 +1,48 @@
+header{
+    width: 100%;
+    height: 4rem;
+    border-bottom: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    display: flex;
+    font-size: 1.6rem;
+}
+body{
+    width: 456px;
+    height: 615px;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titulo{
+    display: flex;
+    font-size: 1.6rem;
+}
+.relogio{
+    width: 3rem;
+    height: 3rem;
+}
+.planner{
+    width: 400px ;
+    height: 400px; ;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.metas{
+    width: 350px;
+    height: 80px;
+    
+}
 footer{
     width: 100%;
     height: 6rem;
