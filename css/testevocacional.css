@@ -34,10 +34,12 @@ body{
     justify-content: space-between;
 }
 main{
-    padding-top: 4rem;
+    padding-top: 3.7rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-content: center;
+    justify-content: center;
     width: 100%;
     flex-wrap: wrap;
 }
