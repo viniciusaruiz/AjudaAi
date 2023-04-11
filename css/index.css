@@ -1,0 +1,101 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+.cabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+.titulo{
+    display: flex;
+    font-size: 1.6rem;
+}
+body{
+    width: 456px;
+    height: 615px;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    height: 20;
+    border-bottom: 0.5px solid black;
+}
+.icone{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 0.3rem;
+    left: 1rem;
+}
+main{
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.pizza{
+    width: 10rem;
+    height: 10rem;
+}
+.destaques{
+    border: 0.2px solid black;
+    margin: 0.3rem;
+    padding: 0.2rem;
+}
+
+.T1{
+    font-size: 1.8rem;
+    color: cornflowerblue;
+}
+.linha{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+}
+.todo{
+    border: 0.2px solid black;
+    margin: 0.3rem;
+    padding: 0.2rem;
+}
+.itens{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    margin-top: 3rem;
+}
+footer{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 0.2px solid black;
+}
+.casa{
+    width: 5rem;
+    height: 5rem;
+}
+.mais{
+    width: 5rem;
+    height: 5rem;
+}
+.capelo{
+    width: 5rem;
+    height: 5rem;
+}
+.norte{
+    width: 5rem;
+    height: 5rem;
+}

@@ -1,0 +1,87 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 456px;
+    height: 615px;
+    align-items: space-between;
+}
+.trofeu{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left: -0.5rem;
+    top:0.3rem;
+}
+header{
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 1rem;
+    border-bottom: 0.5px solid black;
+    display: flex;
+    flex-direction: row;
+}
+main{
+    width: 100%;
+    height: 60%;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    width: 100%;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.escolha{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.faculdades{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    justify-content: center;
+}
+.calendario{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0.3rem;
+    border: 0.1rem solid black;
+    justify-content: flex-end;
+}
+footer{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 0.2px solid black;
+}
+.casa{
+    width: 5rem;
+    height: 5rem;
+}
+.mais{
+    width: 5rem;
+    height: 5rem;
+}
+.capelo{
+    width: 5rem;
+    height: 5rem;
+}
+.norte{
+    width: 5rem;
+    height: 5rem;
+}

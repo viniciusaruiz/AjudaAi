@@ -1,0 +1,104 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    border-bottom: 0.5px solid black;
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;  
+}
+body{
+    width: 456px;
+    height: 615px;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.teste{
+    border: .5px solid black;
+    border-radius: 1rem;
+    width: 60%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgcapelo{
+    padding-right: .5rem;
+    width: 4rem;
+    height: 4rem;
+}
+.titulo{
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+}
+.imgteste{
+    width: 18rem;
+    margin-top: -2rem;
+    margin-bottom: -1rem;
+}
+.trofeu{
+    width: 6rem;
+    height: 6rem;
+}
+.ranking{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 0.2px solid black;
+    border-radius: 1rem;
+    width: 60%;
+    height: 20%;
+}
+.calend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 0.2px solid black;
+    border-radius: 1rem;
+    width: 60%;
+    height: 20%;
+}
+.calendario{
+    width: 5rem;
+    height: 5rem;
+}
+footer{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 0.2px solid black;
+}
+.casa{
+    width: 5rem;
+    height: 5rem;
+}
+.mais{
+    width: 5rem;
+    height: 5rem;
+}
+.capelo{
+    width: 5rem;
+    height: 5rem;
+}
+.norte{
+    width: 5rem;
+    height: 5rem;
+}
