@@ -22,3 +22,72 @@ footer{
     width: 5rem;
     height: 5rem;
 }
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    width: 456px;
+    height: 615px;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titulo{
+    font-size: xx-large;
+    border-bottom: .1rem solid black;
+}
+.formato{
+    justify-content: center;
+    align-items: center;
+}
+header{
+    justify-content: center;
+}
+main{
+    justify-content: center;
+    align-items: center;
+}
+.estrela{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    padding: .1rem;
+    top: 1.6rem;
+}
+.icone{
+    width: 5rem;
+    height: 5rem;
+}
+.icone2{
+    width: 2rem;
+    height: 2rem;
+}
+.botoes{
+    margin: 4rem;
+    width: 70%;
+    justify-content: space-between;
+}
+.sub{
+    font-size: larger;
+    text-decoration: underline;
+}
+.avaliacoes{
+    width: 68%;
+    margin: 4rem;
+}
+.borda{
+    border: .1rem solid black;
+    padding: .2rem;
+    border-radius: .4rem;
+}
+.curriculo{
+    margin: 4rem;
+    width: 70%;
+}
