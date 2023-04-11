@@ -84,7 +84,7 @@ main{
 }
 .borda{
     border: .1rem solid black;
-    padding: .2rem;
+    padding: .5rem;
     border-radius: .4rem;
 }
 .curriculo{
