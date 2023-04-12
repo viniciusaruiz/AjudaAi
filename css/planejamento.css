@@ -29,6 +29,15 @@ h2{
     display:flex;
     margin: 1rem;
 }
+.maior{
+    font-size: larger;
+    list-style: none; 
+    margin-left: 1rem;
+}
+.linha{
+    float: right;
+    font-size: larger;
+}
 .caixa{
     display: flex;
     border: 0.5px solid black;
