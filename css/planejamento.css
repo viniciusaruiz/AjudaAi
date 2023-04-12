@@ -1,13 +1,7 @@
-footer{
-    width: 100%;
-    height: 6rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border-top: 0.2px solid black;
-}
+
 header{
     width: 100%;
+    height: 6rem;
     border-bottom: 0.5px solid black;
     display: flex;
     flex-direction: row;  
@@ -21,13 +15,28 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+
+main{
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+
 h1{
     font-size: 4rem;
 }
 h2{
     font-size: 3.5rem;
     display:flex;
+    align-self: flex-start;
     margin: 1rem;
+    margin-bottom: -.5rem;
 }
 .maior{
     font-size: larger;
@@ -37,17 +46,41 @@ h2{
 .linha{
     float: right;
     font-size: larger;
+    margin-top: 1rem;
 }
 .caixa{
     display: flex;
     border: 0.5px solid black;
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 1.25rem;
 }
 .metas{
     display:flex;
     padding: 0.5rem;
 }
+
+input{
+    width: 100%;
+    display: flex;
+    text-align: flex-start;
+    height: 2.5rem;
+}
+
+.botoes_metas{
+    width: 90%;
+    align-self: flex-start;
+}
+
+
+footer{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 0.2px solid black;
+}
+
 .casa{
     width: 5rem;
     height: 5rem;
