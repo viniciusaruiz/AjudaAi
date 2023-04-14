@@ -13,8 +13,7 @@ html{
     display: flex;
     font-size: 2.5rem;
     text-decoration: bold;
-    font-family: 'Montserrat', sans-serif;
-}
+    font-family: 'Tinos', serif;}
 body{
     width: 456px;
     height: 615px;
@@ -53,7 +52,6 @@ a{
     padding: 0.5rem;
     margin: 0.3rem;
 }
-
 .T1{
     font-size: 1.8rem;
     color: cornflowerblue;
