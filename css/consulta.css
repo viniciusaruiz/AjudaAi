@@ -23,7 +23,6 @@ footer{
     height: 5rem;
 }
 header{
-    border-bottom: .1rem solid black;
     height: 6rem;
     justify-content: center;
     align-items: center;
@@ -49,6 +48,7 @@ main{
     justify-content: center;
     align-items: center;
     font-size: xx-large;
+    text-decoration: underline;
 }
 .icone{
     width: 5rem;
