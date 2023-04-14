@@ -12,7 +12,8 @@ html{
 .titulo{
     display: flex;
     font-size: 2.5rem;
-    text-decoration: underline;
+    text-decoration: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 body{
     width: 456px;
