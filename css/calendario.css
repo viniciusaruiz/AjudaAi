@@ -1,5 +1,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #0D0D0D;
 }
 header{
     width: 100%;
@@ -29,6 +31,7 @@ h1{
     font-size: xx-large;
     text-decoration: underline;
     font-family: 'Tinos', serif;
+    color:#141A8C;
 }
 li{
     font-size: 1.8rem;
@@ -62,4 +65,7 @@ footer{
 .norte{
     width: 5rem;
     height: 5rem;
+}
+.texto_footer{
+    color: #141A8C;
 }

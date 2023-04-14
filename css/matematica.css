@@ -1,5 +1,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #0D0D0D;
 }
 .pizza{
     width: 5rem;
@@ -21,6 +23,7 @@ header{
     font-size: xx-large;
     text-decoration: underline;
     font-family: 'Tinos', serif;
+    color:#141A8C;
 }
 body{
     width: 456px;
@@ -116,4 +119,7 @@ footer{
 }
 ul{
     width: 100%;
+}
+.texto_footer{
+    color: #141A8C;
 }

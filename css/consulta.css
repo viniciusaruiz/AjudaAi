@@ -1,5 +1,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #0D0D0D;
 }
 footer{
     width: 100%;
@@ -53,6 +55,7 @@ main{
     font-size: xx-large;
     text-decoration: underline;
     font-family: 'Tinos', serif;
+    color:#141A8C;
 }
 .icone{
     width: 5rem;
@@ -63,4 +66,7 @@ main{
     width: 15rem;
     height: 20rem;
     margin: 2rem;
+}
+.texto_footer{
+    color: #141A8C;
 }
