@@ -36,6 +36,7 @@ header{
     justify-content: center;
     align-items: center;
     border-bottom: .1rem solid black;
+    height: 6rem;
 }
 main{
     display: flex;
@@ -45,7 +46,7 @@ main{
 .titulo{
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: xx-large;
 }
 .icone1{
     width: 3rem;

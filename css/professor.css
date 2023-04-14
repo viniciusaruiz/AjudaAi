@@ -1,6 +1,7 @@
 header{
     justify-content: center;
     border-bottom: 0.2px solid black;
+    height: 6rem;
 }
 main{
     justify-content: center;
