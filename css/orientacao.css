@@ -35,7 +35,6 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border-bottom: .1rem solid black;
     height: 6rem;
 }
 main{
@@ -47,6 +46,7 @@ main{
     justify-content: center;
     align-items: center;
     font-size: xx-large;
+    text-decoration: underline;
 }
 .icone1{
     width: 3rem;
