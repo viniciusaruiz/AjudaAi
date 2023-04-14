@@ -46,6 +46,9 @@ main{
     flex-direction: column;
     justify-content: space-around;
 }
+ul{
+    background-color: #F2E9E9;
+}
 .materia{
     margin:0.1rem;
     display: flex;

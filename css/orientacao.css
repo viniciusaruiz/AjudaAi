@@ -66,6 +66,10 @@ main{
 }
 .ligue{
     border: .1rem solid black;
+    border-radius: 1rem;
+    margin: 0.3rem;
+    background-color: #F2E9E9;
+    padding: 0.5rem;
     width: 40%;
     height: 100%;
 }
@@ -84,6 +88,13 @@ main{
 .botoes{
     margin: 1rem;
     justify-content: space-around;
+}
+li{
+    border: .1rem solid black;
+    border-radius: 1rem;
+    margin: 0.3rem;
+    background-color: #F2E9E9;
+    padding: 0.5rem;
 }
 .txt{
     margin: 1rem;
