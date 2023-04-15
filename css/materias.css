@@ -46,9 +46,6 @@ main{
     flex-direction: column;
     justify-content: space-around;
 }
-ul{
-    background-color: #F2E9E9;
-}
 .materia{
     margin:0.1rem;
     display: flex;
@@ -57,6 +54,7 @@ ul{
     justify-content: space-around;
     font-size: larger;
     padding: 0.3rem;
+    background-color: #F2E9E9;
 }
 footer{
     width: 100%;
