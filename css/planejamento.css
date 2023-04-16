@@ -43,6 +43,7 @@ h2{
     align-self: flex-start;
     margin: 1rem;
     margin-bottom: -.5rem;
+    color:  #F25E5E;
 }
 .maior{
     font-size: larger;
@@ -63,6 +64,7 @@ h2{
     padding: 0.5rem;
     padding: 0.5rem;
     margin: 1.25rem;
+    color:  #F25E5E;
 }
 .metas{
     display:flex;

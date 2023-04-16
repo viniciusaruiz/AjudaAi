@@ -48,6 +48,7 @@ main{
 .escolher{
     margin: .7rem;
     font-size: 1.5rem;
+    color:  #F25E5E;
 }
 input{
     font-size: 1rem;

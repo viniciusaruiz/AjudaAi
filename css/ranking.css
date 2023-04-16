@@ -52,6 +52,7 @@ main{
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
+    color:  #F25E5E;
 }
 .faculdades{
     display: flex;
@@ -70,6 +71,7 @@ main{
     background-color: #F2E9E9;
     padding: 0.5rem;
     justify-content: flex-end;
+    color:  #F25E5E;
 }
 footer{
     width: 100%;
