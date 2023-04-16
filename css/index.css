@@ -113,3 +113,9 @@ footer{
     width: 5rem;
     height: 5rem;
 }
+
+.texto_img{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}

@@ -126,3 +126,9 @@ p{
 .texto_footer{
     color: #141A8C;
 }
+
+.texto_img{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
