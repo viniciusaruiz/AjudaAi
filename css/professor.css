@@ -8,15 +8,15 @@ header{
     height: 6rem;
 }
 main{
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    margin-top: -2rem;
-    margin-bottom: -1rem;
+    flex-direction: column;
+    height: 100%;
 }
 body{
     width: 456px;
     height: 615px;
-    align-items: stretch;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -58,7 +58,6 @@ body{
     height: 2rem;
 }
 .botoes{
-    margin: 4rem;
     width: 70%;
     justify-content: space-between;
 }
@@ -70,18 +69,18 @@ body{
 }
 .avaliacoes{
     width: 68%;
-    margin: 4rem;
 }
 .borda{
     border: .1rem solid black;
     border-radius: 1rem;
-    margin: 0.3rem;
     background-color: #F2E9E9;
     padding: 0.5rem;
 }
 .curriculo{
-    margin: 4rem;
     width: 70%;
+}
+.cor{
+    color: #F25E5E;
 }
 footer{
     width: 100%;
