@@ -10,14 +10,15 @@ header{
     justify-content: center;
     align-items: center;
 }
-.titulo{
+.titulo_planner{
     display: flex;
     font-size: xx-large;
     text-decoration: underline;
     font-family: 'Tinos', serif;
     color:#141A8C;
+    font-size: 1.6rem;
 }
-body{
+.body_planner{
     width: 456px;
     height: 615px;
     align-items: stretch;
@@ -25,11 +26,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-.titulo{
-    display: flex;
-    font-size: 1.6rem;
-}
-.relogio{
+.relogio_planner{
     width: 3rem;
     height: 3rem;
 }
@@ -38,7 +35,7 @@ body{
     width: 22rem ;
     height: 22rem;
 }
-main{
+.main_planner{
     width: 100%;
     height: 100%;
     display: flex;
@@ -46,7 +43,7 @@ main{
     align-items: center;
     justify-content: space-evenly;
 }
-.metas{
+.metas_planner{
     border: .1rem solid black;
     color: #F25E5E;
     background-color: #F2E9E9;

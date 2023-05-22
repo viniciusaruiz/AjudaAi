@@ -3,14 +3,14 @@
     text-decoration: none;
     color: #0D0D0D;
 }
-header{
+.header_planejamento{
     width: 100%;
     height: 6rem;
     display: flex;
     flex-direction: row;  
     justify-content: center;  
 }
-body{
+.body_planejamento{
     width: 456px;
     height: 615px;
     align-items: flex-start;
@@ -18,7 +18,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-main{
+.main_planejamento{
     margin-top: 0.5rem;
     width: 100%;
     height: 80%;
@@ -28,7 +28,7 @@ main{
     align-items: center;
     margin-bottom: 0.5rem;
 }
-h1{
+.h1_planejamento{
     font-size: xx-large;
     text-decoration: underline;
     display: flex;
@@ -37,7 +37,7 @@ h1{
     font-family: 'Tinos', serif;
     color:#141A8C;
 }
-h2{
+.h2_planejmaneto{
     font-size: 2.0rem;
     display:flex;
     align-self: flex-start;
@@ -50,12 +50,12 @@ h2{
     list-style: none; 
     margin-left: 1rem;
 }
-.linha{
+.linha_planejamento{
     float: right;
     font-size: larger;
     margin-top: 1rem;
 }
-.caixa{
+.caixa_planejamento{
     display: flex;
     border: .1rem solid black;
     border-radius: 1rem;
@@ -66,11 +66,11 @@ h2{
     margin: 1.25rem;
     color:  #F25E5E;
 }
-.metas{
+.metas_planejamento{
     display:flex;
     padding: 0.5rem;
 }
-input{
+.input_planejamento{
     width: 100%;
     display: flex;
     text-align: start;

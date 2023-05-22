@@ -27,14 +27,14 @@ footer{
     width: 5rem;
     height: 5rem;
 }
-header{
+.header_consulta{
     height: 6rem;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: row;
 }
-body{
+.body_consulta{
     width: 456px;
     height: 615px;
     align-items: stretch;
@@ -42,13 +42,13 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-main{
+.main_consulta{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.titulo{
+.titulo_consulta{
     padding: 1%;
     justify-content: center;
     align-items: center;
@@ -57,12 +57,12 @@ main{
     font-family: 'Tinos', serif;
     color:#141A8C;
 }
-.icone{
+.icone_consulta{
     width: 5rem;
     height: 5rem;
     margin-bottom: 2rem;
 }
-.descricao{
+.descricao_consulta{
     width: 15rem;
     height: 20rem;
     margin: 2rem;

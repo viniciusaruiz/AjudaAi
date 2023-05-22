@@ -28,7 +28,7 @@ footer{
     width: 5rem;
     height: 5rem;
 }
-body{
+.body_orientacao{
     width: 456px;
     height: 615px;
     align-items: stretch;
@@ -36,19 +36,19 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-header{
+.header_orientacao{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 6rem;
 }
-main{
+.main_orientacao{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.titulo{
+.titulo_orientacao{
     justify-content: center;
     align-items: center;
     font-size: xx-large;
@@ -56,11 +56,11 @@ main{
     font-family: 'Tinos', serif;
     color:#141A8C;
 }
-.icone1{
+.icone1_orientacao{
     width: 3rem;
     height: 3rem;
 }
-.icone2{
+.icone2_orientacao{
 
     width: 12rem;
     height: 10rem;
@@ -78,26 +78,26 @@ main{
     display: flex;
     flex-direction: column;
 }
-.formato{
+.formato_orientacao{
     justify-content: center;
     align-items: center;
 }
-.linha{
+.linha_orientacao{
     display: flex;
     flex-direction: row;
 }
-.botoes{
+.botoes_orientacao{
     margin: 1rem;
     justify-content: space-around;
 }
-li{
+.li_orientacao{
     border: .1rem solid black;
     border-radius: 1rem;
     margin: 0.3rem;
     background-color: #F2E9E9;
     padding: 0.5rem;
 }
-.txt{
+.txt_orientacao{
     margin: 1rem;
     justify-content: center;
     font-size: x-large;
