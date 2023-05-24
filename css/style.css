@@ -17,17 +17,14 @@
 .body_calendario{
     width: 456px;
     height: 615px;
-    align-items: stretch;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .main_calendario{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    margin-top: -4rem;
+    justify-content: center;
 }
 .h1_calendario{
     display: flex;
@@ -36,11 +33,53 @@
     font-family: 'Tinos', serif;
     color:#141A8C;
 }
-.calendario{
-    width: 35rem;
-    height: 20rem;
+.flex_janela{
+    height: 100%;
     display: flex;
-    align-self: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fechar{
+    color: #141A8C;
+    text-align: center;
+}
+.janela {
+    display: none;
+    left: 3rem;
+    top: 12rem;
+    position: fixed;
+    background-color: whitesmoke;
+    border:.1rem solid #141A8C;
+    width: 20rem;
+    height: 10rem;
+    padding: 1rem;
+}
+.meses{
+    margin: .5rem;
+    padding: .2rem;
+    width: 65.5%;
+    text-align: center;
+    border-radius: .2rem;
+    border: .1rem solid #F25E5E;
+}
+.calendario{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: .1rem solid ;
+    border-radius: .2rem;
+    background-color: #F2E9E9;
+    font-size: x-large;
+}
+.d_semana{
+    text-align: center;
+    color: #141A8C;
+    border-bottom: .1rem solid #F25E5E;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+}
+.dia{
+    text-align: center;
+    padding: .4rem;
 }
 .header_consulta{
     height: 6rem;
