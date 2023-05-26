@@ -15,4 +15,14 @@ document.addEventListener("DOMContentLoaded", function(){
         janela.style.display = 'none'
     })
 
+    // MATERIAS
+    materias  = document.querySelectorAll('.a_materias')
+    console.log(materias)
+    for (materia of materias){
+        
+        materia.addEventListener('click', function(event){
+            
+            localStorage.setItem('materia',materia.innerHTML)
+        })
+    }
 })
