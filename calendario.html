@@ -9,18 +9,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="js/js.js"></script>
 </head>
 <body class="body_calendario">
     <header class="header_calendario">
+        <img class="calendario_profissao" src="/img/calendario_desenho.png" alt="seu-calendario">
         <h1 class="h1_calendario">SEU CALENDARIO</h1>
     </header>
     <main class="main_calendario">
-        <img class="calendario" src="img/calendary.png" alt="icone calendario">
-        <ul>
-            <li> ! início inscrições (INSPER) </li>
-            <li> ? fim inscrições (INSPER) </li>
-            <li> * prova (INSPER) </li>
-            <li>
+        <select class = "meses" name="meses" id="meses">
+            <option value="jan">Janeiro</option>
+            <option value="fev">Fevereiro</option>
+            <option value="mar">Março</option>
+            <option value="abr">Abril</option>
+            <option value="mai">Maio</option>
+            <option value="jun">Junho</option>
+            <option value="jul">Julho</option>
+            <option value="ago">Agosto</option>
+            <option value="set">Setembro</option>
+            <option value="out">Outubro</option>
+            <option value="nov">Novembro</option>
+            <option value="dez">Dezembro</option>
+        </select>
+        <ul class="calendario">
+            <li class="d_semana">D</li>
+            <li class="d_semana">S</li>
+            <li class="d_semana">T</li>
+            <li class="d_semana">Q</li>
+            <li class="d_semana">Q</li>
+            <li class="d_semana">S</li>
+            <li class="d_semana">S</li>
+            <li class="dia">1</li>
+            <li class="dia">2</li>
+            <li class="dia">3</li>
+            <li class="dia">4</li>
+            <li class="dia">5</li>
+            <li class="dia">6</li>
+            <li class="dia">7</li>
+            <li class="dia">8</li>
+            <li class="dia">9</li>
+            <li class="dia">10</li>
+            <li class="dia">11</li>
+            <li class="dia">12</li>
+            <li class="dia">13</li>
+            <li class="dia">14</li>
+            <li class="dia">15</li>
+            <li class="dia">16</li>
+            <li class="dia">17</li>
+            <li class="dia">18</li>
+            <li class="dia">19</li>
+            <li class="dia">20</li>
+            <li class="dia">21</li>
+            <li class="dia">22</li>
+            <li class="dia">23</li>
+            <li class="dia">24</li>
+            <li class="dia">25</li>
+            <li class="dia">26</li>
+            <li class="dia">27</li>
+            <li class="dia">28</li>
+            <li class="dia">29</li>
+            <li class="dia">30</li>
+            <div class="janela">
+                <div class="flex_janela">
+                    <ul>
+                        <li>insper...</li>
+                        <li>ufg...</li>
+                        <li>usp...</li>
+                    </ul>
+                    <p class="fechar">
+                        CLIQUE AQUI PARA FECHAR
+                    </p>
+                </div>
+            </div>
         </ul>
     </main>
     <footer>

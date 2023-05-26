@@ -17,30 +17,69 @@
 .body_calendario{
     width: 456px;
     height: 615px;
-    align-items: stretch;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .main_calendario{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    margin-top: -4rem;
+    justify-content: center;
 }
 .h1_calendario{
     display: flex;
-    font-size: 2.5rem;
-    text-decoration: bold;
+    font-size: xx-large;
+    text-decoration: underline;
     font-family: 'Tinos', serif;
     color:#141A8C;
 }
-.calendario{
-    width: 35rem;
-    height: 20rem;
+.flex_janela{
+    height: 100%;
     display: flex;
-    align-self: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fechar{
+    color: #141A8C;
+    text-align: center;
+}
+.janela {
+    display: none;
+    left: 3rem;
+    top: 12rem;
+    position: fixed;
+    background-color: whitesmoke;
+    border:.1rem solid #141A8C;
+    width: 20rem;
+    height: 10rem;
+    padding: 1rem;
+}
+.meses{
+    margin: .5rem;
+    padding: .2rem;
+    width: 65.5%;
+    text-align: center;
+    border-radius: 1rem;
+    border: .1rem solid #F25E5E;
+}
+.calendario{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: .1rem solid ;
+    border-radius: 1rem;
+    background-color: #F2E9E9;
+    font-size: x-large;
+}
+.d_semana{
+    text-align: center;
+    color: #141A8C;
+    border-bottom: .1rem solid #F25E5E;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+}
+.dia{
+    text-align: center;
+    padding: .4rem;
 }
 .header_consulta{
     height: 6rem;
@@ -125,7 +164,7 @@ a {
     height: 10rem;
 }
 .destaques_index{
-    border: 0.2px solid black;
+    border: .1rem solid #F25E5E;
     border-radius: 1rem;
     padding: 0.5rem;
     margin: 0.3rem;
@@ -143,7 +182,7 @@ a {
     justify-content: space-evenly;
 }
 .todo{
-    border: 0.2px solid black;
+    border: .1rem solid #F25E5E;
     border-radius: 1rem;
     padding: 0.5rem;
     margin: 0.3rem;
@@ -153,7 +192,6 @@ a {
 .itens_index{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     margin-top: 3rem;
 }
 .pizza_matematica{
@@ -165,6 +203,8 @@ a {
     height: 4rem;
 }
 .h2_matematica{
+    text-decoration: underline;
+    font-size: larger;
     color: #F25E5E;
 }
 .header_matematica{
@@ -193,15 +233,13 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    justify-content: center;
     margin-top: 1rem;
 }
 .linhaprincipal{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    width: 70%;
 }
 .aulas1{
     color:rgb(235, 132, 29);
@@ -210,13 +248,14 @@ a {
     color: #F25E5E;;
 }
 .coluninha{
-    height: 100%;
+    height: 139.2px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     border: 0.2px solid black;
     border-radius: 1rem;
-    margin: 0.3rem;
+    margin: 0.4rem;
     background-color: #F2E9E9;
     padding: 0.5rem;
 }
@@ -237,8 +276,8 @@ a {
     height: 2rem;
 }
 .profs{
-    margin: 1rem;
-    width: 70%;
+    margin: 2rem;
+    width: 80%;
     display: flex;
     flex-direction: column;
     border: .5px solid black;
@@ -335,18 +374,16 @@ a {
     height: 3rem;
 }
 .icone2_orientacao{
-
     width: 12rem;
     height: 10rem;
 }
 .ligue{
     border: .1rem solid black;
     border-radius: 1rem;
-    margin: 0.3rem;
     background-color: #F2E9E9;
     padding: 0.5rem;
+    margin-top: .5rem;
     width: 40%;
-    height: 100%;
 }
 .formato_orientacao{
     justify-content: center;
@@ -357,7 +394,7 @@ a {
     flex-direction: row;
 }
 .botoes_orientacao{
-    margin: 1rem;
+    margin: .5rem;
     justify-content: space-around;
 }
 .li_orientacao{
@@ -368,7 +405,6 @@ a {
     padding: 0.5rem;
 }
 .txt_orientacao{
-    margin: 1rem;
     justify-content: center;
     font-size: x-large;
     text-decoration: underline;
@@ -563,7 +599,7 @@ a {
 }
 .borda_prof{
     border: .1rem solid black;
-    border-radius: 1rem;
+    border-radius: .5rem;
     background-color: #F2E9E9;
     padding: 0.5rem;
 }
@@ -757,7 +793,6 @@ html{
 .body_teste{
     width: 456px;
     height: 615px;
-    align-items: stretch;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -774,7 +809,7 @@ html{
     
 }
 .escolher_teste{
-    margin: .7rem;
+    /* margin: .7rem; */
     font-size: 1.5rem;
     color:  #F25E5E;
 }
@@ -787,7 +822,7 @@ input{
     padding: .5rem;
     width: 7rem;
     border: 0.1rem solid black;
-    border-radius: 6%;
+    border-radius: 2rem;
     align-items: center;
     justify-content: center;
 }
