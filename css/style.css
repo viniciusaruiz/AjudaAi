@@ -342,6 +342,7 @@ a {
     font-size: larger;
     padding: 0.3rem;
     background-color: #F2E9E9;
+    color: #F25E5E;
 }
 .body_orientacao{
     width: 456px;
@@ -860,8 +861,6 @@ footer{
     flex-direction: column;
     display: flex;
     align-items: center;
-}
-.a_materias{    color: #F25E5E;
 }
 .livro{
     width: 3rem;

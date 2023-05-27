@@ -1,8 +1,21 @@
 document.addEventListener("DOMContentLoaded", function(){
-    e = document.querySelector("h1")
-    e.innerHTML = "ATUALIZAR NOME MATÉRIA"
 
-    // CALENDARIO
+    // function getOption(){
+    //     dropdown = document.querySelector('#meses').value
+    //     console.log(dropdown)
+    // if (dropdown=='jan' || dropdown=='mar' || dropdown=='mai' || dropdown=='jul' || dropdown=='ago' || dropdown=='out' || dropdown=='dez'){
+    lista = document.querySelector('.calendario')
+    li1 = document.createElement('li .dia')
+    li1.innerHTML = '29'
+    li2 = document.createElement('li .dia')
+    li2.innerHTML = '30'
+    li3 = document.createElement('li .dia')
+    li3.innerHTML = '31'
+    lista.appendChild(li1)
+    lista.appendChild(li2)
+    lista.appendChild(li3)
+        // }
+    // }
     dias = document.querySelectorAll('.dia')
     fechar = document.querySelector('.fechar')
     janela = document.querySelector('.janela')
@@ -16,15 +29,4 @@ document.addEventListener("DOMContentLoaded", function(){
         event.stopPropagation()
         janela.style.display = 'none'
     })
-
-    // MATERIAS
-    materias  = document.querySelectorAll('.a_materias')
-    console.log(materias)
-    for (materia of materias){
-        
-        materia.addEventListener('click', function(event){
-            
-            localStorage.setItem('materia',materia.innerHTML)
-        })
-    }
 })
