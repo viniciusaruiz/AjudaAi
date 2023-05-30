@@ -745,6 +745,9 @@ html{
     color:#141A8C;
 }
 .escolha{
+    border-bottom: solid .1rem #141A8C;
+    border-radius: .4rem;
+    padding: .1rem;
     font-size: larger;
     display: flex;
     flex-direction: column;
