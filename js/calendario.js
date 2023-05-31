@@ -61,8 +61,6 @@ document.addEventListener("DOMContentLoaded", function(){
             i+=1
         }
     }
-    console.log(dic2)
-
 
     
 
@@ -86,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function(){
         })
         
         if (dic2.hasOwnProperty(dia.innerHTML) == true){
-            dia.style.color = '#F25E5E'
+            dia.style.color = '#141A8C'
         }
     }
     fechar.addEventListener('click', function(event){
