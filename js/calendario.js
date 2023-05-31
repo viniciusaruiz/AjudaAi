@@ -17,51 +17,85 @@ document.addEventListener("DOMContentLoaded", function(){
     'Insper':[1,10,20,26]
 }
 
-    // function getOption(){
-    //     dropdown = document.querySelector('#meses').value
-    //     console.log(dropdown)
-    // if (dropdown=='jan' || dropdown=='mar' || dropdown=='mai' || dropdown=='jul' || dropdown=='ago' || dropdown=='out' || dropdown=='dez'){
-    // lista = document.querySelector('.calendario')
-    // li1 = document.createElement('li .dia')
-    // li1.innerHTML = '29'
-    // li2 = document.createElement('li .dia')
-    // li2.innerHTML = '30'
-    // li3 = document.createElement('li .dia')
-    // li3.innerHTML = '31'
-    // lista.appendChild(li1)
-    // lista.appendChild(li2)
-    // lista.appendChild(li3)
-    //     // }
-    // }
+    // selecao = document.querySelector('select')
+    // selecao.addEventListener('change', function(){
+    //     dropdown = selecao.value
+    //     if (dropdown=='jan' || dropdown=='mar' || dropdown=='mai' || dropdown=='jul' || dropdown=='ago' || dropdown=='out' || dropdown=='dez'){
+    //         ul = document.querySelector('.calendario')
+    //         li = document.querySelector('.dia')
+    //         li.innerHTML = '30'
+    //         ul.appendChild(li)
+    //         }
+    // })
+ 
+
     dias = document.querySelectorAll('.dia')
     fechar = document.querySelector('.fechar')
     janela = document.querySelector('.janela')
 
     lista = localStorage.getItem('faculs').split(',')
-    ul = document.querySelector('ul')
 
     dic2 = {}
     for (item of lista){
         i = 0
-        console.log(dic[item])
         for (dia of dic[item]){
+            aux = []
             if (i == 0){
-                // aux[]
+                aux.push('Abertura Inscrições'+' '+item)
             }
+            if (i == 1){
+                aux.push('Encerramento Inscrições'+' '+item)
+            }
+            if (i == 2){
+                aux.push('1°Fase'+' '+item)
+            }
+            if (i == 3){
+                aux.push('2°Fase'+' '+item)
+            }
+            if (dic2.hasOwnProperty(dia) == false){
+                dic2[dia] = aux
+            }
+            else if (dic2.hasOwnProperty(dia) == true){
+                dic2[dia] = dic2[dia].concat(aux)
+            }
+            i+=1
         }
     }
+    console.log(dic2)
+
+
+    
 
     for (dia of dias){
         dia.addEventListener('click', function(event){
+            
             event.stopPropagation()
             janela.style.display = 'block'
-        })}
+            a = event.currentTarget.innerHTML
+            
+            if (dic2.hasOwnProperty(a) == true){
+                ul = document.querySelector('.faculs')
+                ul.innerHTML = ''
+                console.log(dic2[a])
+                for (evento of dic2[a]){
+                    li = document.createElement('li')
+                    li.innerHTML = evento
+                    ul.appendChild(li)
+                }
+            }
+        })
+        
+        if (dic2.hasOwnProperty(dia.innerHTML) == true){
+            dia.style.color = '#F25E5E'
+        }
+    }
     fechar.addEventListener('click', function(event){
         event.stopPropagation()
         janela.style.display = 'none'
-
-    // if (parseInt(dia.innerHTML) == )
     })
+    
+        
+    
 
 
 
