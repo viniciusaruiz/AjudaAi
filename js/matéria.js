@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             t = event.currentTarget
             tt = t.querySelector('li')
             t2 = tt.innerHTML
-            nome = localStorage.setItem("t2",t2)
+            localStorage.setItem("t2",t2)
         })
     }
 
