@@ -96,6 +96,20 @@ document.addEventListener("DOMContentLoaded", function(){
         if (dic2.hasOwnProperty(dia.innerHTML) == true){
             dia.style.color = '#141A8C'
         }
+
+        dia.addEventListener('mouseover', function(event){
+            dia = event.currentTarget
+            dia.style.color = 'white'
+        })
+        dia.addEventListener('mouseout', function(event){
+            dia = event.currentTarget
+            if (dic2.hasOwnProperty(dia.innerHTML) == true){
+                dia.style.color = '#141A8C'
+            }
+            if (dic2.hasOwnProperty(dia.innerHTML) == false){
+                dia.style.color = '#F25E5E'
+            }
+        })
     }
     fechar.addEventListener('click', function(event){
         event.stopPropagation()

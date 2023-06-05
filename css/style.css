@@ -44,6 +44,7 @@
     text-align: center;
 }
 .janela {
+    font-size: larger;
     display: none;
     left: 3rem;
     top: 12rem;
@@ -164,12 +165,12 @@ a {
     height: 10rem;
 }
 .destaques_index{
-    border: .1rem solid #F25E5E;
+    border: .05rem solid black;
     border-radius: 1rem;
     padding: 0.5rem;
     margin: 0.3rem;
     background-color: #F2E9E9;
-    box-shadow: .1rem .1rem .3rem black;
+    /* box-shadow: .1rem .1rem .3rem black; */
 
 }
 .T1{
@@ -184,13 +185,13 @@ a {
     justify-content: space-evenly;
 }
 .todo{
-    border: .1rem solid #F25E5E;
+    border: .05rem solid black;
     border-radius: 1rem;
     padding: 0.5rem;
     margin: 0.3rem;
     padding: 0.5rem;
     background-color: #F2E9E9;
-    box-shadow: .1rem .1rem .3rem black;
+    /* box-shadow: .1rem .1rem .3rem black; */
 }
 .itens_index{
     display: flex;
@@ -337,7 +338,7 @@ a {
 .materia{
     margin:0.1rem;
     text-align: center;
-    border: 0.3px solid black;
+    border: 0.05rem solid black;
     border-radius: .3rem;
     font-size: larger;
     padding: 0.3rem;
@@ -422,21 +423,11 @@ a {
 }
 .body_planejamento{
     width: 456px;
-    height: 615px;
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    /* height: 615px; */
 }
 .main_planejamento{
-    margin-top: 0.5rem;
-    width: 100%;
-    height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 0.5rem;
 }
 .h1_planejamento{
     font-size: xx-large;
@@ -448,11 +439,10 @@ a {
     color:#141A8C;
 }
 .h2_planejmaneto{
-    font-size: 2.0rem;
+    font-size: xx-large;
     display:flex;
     align-self: flex-start;
     margin: 1rem;
-    margin-bottom: -.5rem;
     color:  #F25E5E;
 }
 .maior{
@@ -461,39 +451,40 @@ a {
     margin-left: 1rem;
 }
 .linha_planejamento{
-    float: right;
-    font-size: larger;
-    margin-top: 1rem;
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+}
+.mais{
+    height: min-content;
 }
 .caixa_planejamento{
     display: flex;
-    border: .1rem solid black;
+    border: .05rem solid black;
     border-radius: 1rem;
-    margin: 0.3rem;
     background-color: #F2E9E9;
     padding: 0.5rem;
-    padding: 0.5rem;
-    margin: 1.25rem;
     color:  #F25E5E;
 }
 .metas_planejamento{
+    margin-left: 1rem;
+    height: min-content;
+    width: 90%;
     display:flex;
-    padding: 0.5rem;
 }
 .input_planejamento{
     width: 100%;
     display: flex;
-    text-align: start;
-    height: 2.5rem;
-    border: .1rem solid black;
+    border: .05rem solid black;
     border-radius: 1rem;
-    margin: 0.3rem;
     background-color: #F2E9E9;
     padding: 0.5rem;
 }
 .botoes_metas{
-    width: 90%;
-    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .titulo_planner{
@@ -593,7 +584,12 @@ a {
     color:  #F25E5E;
 }
 .avaliacoes_prof{
-    width: 68%;
+    border: .1rem solid black;
+    border-radius: .5rem;
+    background-color: #F2E9E9;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    width: 70%;
 }
 .borda_prof{
     border: .1rem solid black;
@@ -632,7 +628,7 @@ a {
     justify-content: space-evenly;
 }
 .teste_profissao{
-    border: .5px solid black;
+    border: .05rem solid black;
     border-radius: 1rem;
     margin: 0.3rem;
     background-color: #F2E9E9;
@@ -671,7 +667,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: 0.2px solid black;
+    border: 0.05rem solid black;
     border-radius: 1rem;
     margin: 0.3rem;
     background-color: #F2E9E9;
@@ -684,7 +680,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: 0.2px solid black;
+    border: 0.05rem solid black;
     border-radius: 1rem;
     margin: 0.3rem;
     background-color: #F2E9E9;
