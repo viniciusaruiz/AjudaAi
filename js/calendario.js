@@ -17,16 +17,26 @@ document.addEventListener("DOMContentLoaded", function(){
     'Insper':[1,10,20,26]
 }
 
-    // selecao = document.querySelector('select')
-    // selecao.addEventListener('change', function(){
-    //     dropdown = selecao.value
-    //     if (dropdown=='jan' || dropdown=='mar' || dropdown=='mai' || dropdown=='jul' || dropdown=='ago' || dropdown=='out' || dropdown=='dez'){
-    //         ul = document.querySelector('.calendario')
-    //         li = document.querySelector('.dia')
-    //         li.innerHTML = '30'
-    //         ul.appendChild(li)
-    //         }
-    // })
+    selecao = document.querySelector('select')
+    selecao.addEventListener('change', function(){
+        dropdown = selecao.value
+        li1 = document.getElementById('29')
+        li2 = document.getElementById('30')
+        li3 = document.getElementById('31')
+        if (dropdown=='jan' || dropdown=='mar' || dropdown=='mai' || dropdown=='jul' || dropdown=='ago' || dropdown=='out' || dropdown=='dez'){
+            li1.innerHTML = '29'
+            li2.innerHTML = '30'
+            li3.innerHTML = '31'
+            }
+        if (dropdown=='fev'){
+            li1.innerHTML = ''
+            li2.innerHTML = ''
+            li3.innerHTML = ''
+            }
+        if (dropdown=='abr' || dropdown=='jun' || dropdown=='set' || dropdown=='nov'){
+            li3.innerHTML = ''
+            }
+    })
  
 
     dias = document.querySelectorAll('.dia')
