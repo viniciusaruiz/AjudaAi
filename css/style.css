@@ -387,7 +387,7 @@ a {
     background-color: #F2E9E9;
     padding: 0.5rem;
     margin-top: .5rem;
-    width: 40%;
+    width: 45%;
 }
 .formato_orientacao{
     justify-content: center;
@@ -396,6 +396,7 @@ a {
 .linha_orientacao{
     display: flex;
     flex-direction: row;
+    padding-left: 2rem;
 }
 .botoes_orientacao{
     margin: .5rem;
@@ -413,7 +414,6 @@ a {
     font-size: x-large;
     text-decoration: underline;
 }
-
 .header_planejamento{
     width: 100%;
     height: 6rem;
