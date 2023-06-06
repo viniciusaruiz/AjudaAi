@@ -345,6 +345,7 @@ a {
     background-color: #F2E9E9;
     color: #F25E5E;
     width: 15rem;
+    height: 1.3rem;
 }
 .body_orientacao{
     width: 456px;
@@ -888,4 +889,8 @@ option{
     width: 2rem;
     height: 2rem;
     right: 18rem;
+}
+
+.lista_profissao{
+    font-size: 1.3rem;
 }
