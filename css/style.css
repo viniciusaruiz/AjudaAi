@@ -396,18 +396,15 @@ a {
 .linha_orientacao{
     display: flex;
     padding-left: 2rem;
-    /*
     flex-direction: row;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 .linha_orientacao_baixo{
     display: flex;
-    padding-left: 2rem;
-    /*
     flex-direction: row;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 .botoes_orientacao{
     margin: .5rem;
