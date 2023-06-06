@@ -390,10 +390,10 @@ a {
     margin-top: .5rem;
     width: 45%;
 }
-.formato_orientacao{
+/* .formato_orientacao{
     /* justify-content: center; */
     /* align-items: center; */
-}
+
 .linha_orientacao{
     display: flex;
     padding-left: 2rem;
