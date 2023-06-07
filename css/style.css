@@ -885,10 +885,13 @@ option{
 }
 
 .botao_voltar{
-    position: relative;
+    position: fixed;
+    display: flex;
     width: 2rem;
     height: 2rem;
-    right: 18rem;
+    left: 2.3rem;
+    align-self: flex-start;
+    top: 1.7rem;
 }
 
 .lista_profissao{
