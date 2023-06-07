@@ -1,22 +1,26 @@
 document.addEventListener('DOMContentLoaded', function() {
     ul = document.querySelector('.botoes_metas')
     adds = document.querySelectorAll('.mais')
+    input = document.querySelectorAll('.input_planejamento')
     for (add of adds){
         add.addEventListener('click', function(event){
-            div = document.querySelector('.linha_planejamento')
-            div.querySelector('input').value = 'oi'
+            frase = 'Meta adicionada!'
+            div = document.createElement('div')
+            p = document.createElement('p')
+        
+
+            div.style.display = 'none'
+            div.style.fontStyle = 'italic'
+            div.style.color = '#000000'
+
+            texto  = document.createTextNode(frase)
             ul.appendChild(div)
-            console.log(div)
+            div.appendChild(texto)
+            div.style.display = 'block';
+            setTimeout(function(){ div.style.display = 'none';}, 2000);
         })
 
-        add.addEventListener('mouseover', function(event){
-            add = event.currentTarget
-            add.style.color = '#141A8C'
-        })
-        add.addEventListener('mouseout', function(event){
-            add = event.currentTarget
-            add.style.color = '#F25E5E'
-        })
+
     }
 
 })

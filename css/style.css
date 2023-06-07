@@ -900,3 +900,7 @@ option{
 .lista_profissao{
     font-size: 1.3rem;
 }
+
+.texto_meta{
+    color: white;
+}
