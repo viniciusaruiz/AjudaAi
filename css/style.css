@@ -506,15 +506,15 @@ a {
     text-decoration: underline;
     font-family: 'Tinos', serif;
     color:#141A8C;
-    font-size: 1.6rem;
+    font-size: 2.2rem;
+    align-content: center;
+    margin-top: 1.3rem;
 }
 .body_planner{
     width: 456px;
     height: 615px;
-    align-items: stretch;
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .relogio_planner{
     width: 3rem;
@@ -903,4 +903,24 @@ option{
 
 .texto_meta{
     color: white;
+}
+
+.semana{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+.dias_calendario_semanal{
+    text-align: center;
+    color: #141A8C;
+    border-bottom: .1rem solid #F25E5E;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    margin: .2rem;
+    font-size: 1.3rem;
+    font-style: bold;
 }
