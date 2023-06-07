@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ul.appendChild(div)
             div.appendChild(texto)
             div.style.display = 'block';
-            setTimeout(function(){ div.style.display = 'none';}, 2000);
+            setTimeout(function(){ div.style.display = 'none';}, 1000);
         })
 
 
